@@ -1,0 +1,11 @@
+language: java
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk6
+script: find {src/main/java/com/heroku/demo/} -name "*.java"  -print0 | xargs -0 -n1 -P8 java -cp
+
+after script:
+notification:
+  recipients:
+  - augusto.berwaldt@gmail.com
