@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="" content="" />
+
+    <title>SB Admin - Bootstrap Admin Template</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/sb-admin.css" rel="stylesheet" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">IFTCC</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="" />
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Coordenador</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="" />
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Coordenador</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="" />
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Coordenador</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-footer">
+                            <a href="#">Read All New Messages</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <a href="visualizarTcc.html">O usuário (nome do usuário) submeteu seu Tcc(título da tarefa) para avaliação. <span class="label label-default">Avaliar</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Orientador<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Perfil</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Mensagens</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Configurações</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Sair</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="dashboard.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li>
+						<a href="javascript:;" data-toggle="collapse" data-target="#tcc"><i class="fa fa-fw fa-edit"></i> TCC<i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="tcc" class="collapse">
+                            <li>
+                                <a href="deftema.html"> Tema</a>
+                            </li>
+                            <li>
+                                <a href="#"> Proposta</a>
+                            </li>
+                             <li>
+                                <a href="avaliarTCC.html"> Avaliação(3)</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+						<a href="javascript:;" data-toggle="collapse" data-target="#defbanca"><i class="fa fa-fw fa-wrench"></i> Administração<i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="defbanca" class="collapse">
+                            <li>
+                                <a href="defbanca.html"> Banca</a>
+                            </li>
+                            <li>
+                                <a href="#"> Cronograma</a>
+                            </li>
+                        </ul>
+                    </li>                    
+                    <li>
+                        <a href="blankpage.html"><i class="fa fa-fw fa-file"></i> Blank Page</a>
+                    </li>                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+             <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            Titulo do Tcc que está sendo avaliado                            
+                        </h1>
+                        <ol class="breadcrumb">
+                            <li>
+                                <i class="fa fa-dashboard"></i>  <a href="dashboard.html">Dashboard</a>
+                            </li>
+                            <li>
+                                <i class="#"></i>  <a href="#">TCC</a>
+                            </li>
+                            <li class="active">
+                                <i class="#"></i><a href="avaliarTcc.html">Avaliação de TCC</a> 
+                            </li>
+                            <li class="active">
+                                <i class="fa fa-file"></i> Documento
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- /.row -->
+                
+                <div class="row">
+                    
+                    <div class="col-lg-12" id="teste">
+                       <textarea name="tcc" id="" cols="30" rows="10" style="width: 100%;">MINISTÉRIO DA EDUCAÇÃO SECRETARIA DE EDUCAÇÃO PROFISSIONAL, CIENTÍFICA E TECNOLÓGICA INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO RIO GRANDE DO SUL CAMPUS CANOAS CAPÍTULO III DA COORDENAÇÃO Art. 9º. A coordenação do TCC será realizada pelo Coordenador de Curso, ao qual compete: I – Realizar as ações relacionadas com o processo ensinoaprendizagem do TCC; II – Providenciar a homologação dos Professores Orientadores do TCC; III – Homologar as decisões referentes ao TCC; IV – Estabelecer, em consonância com o colegiado do curso, normas e instruções complementares no âmbito do seu curso; V – Organizar e operacionalizar as diversas atividades de desenvolvimento e avaliação do TCC que se constituem na apresentação do trabalho; VI – Efetuar a divulgação e o lançamento das avaliações referentes ao TCC; VII – Promover reuniões de orientação e acompanhamento com os discentes que estão desenvolvendo o TCC, em datas previstas no Calendário Acadêmico; VIII – Definir as datas das atividades de acompanhamento e de avaliação do TCC; IX – Convocar, sempre que necessário, os orientadores para discutir questões relativas à organização, planejamento, desenvolvimento e avaliação do TCC; X – Promover a integração entre os diversos cursos do IFRS-Canoas, empresas e organizações, de forma a levantar possíveis temas de trabalhos e fontes de financiamento; XI – Constituir as bancas de avaliação dos TCC.</textarea>
+                       <a href="#"  class="btn salvar" style="background:green; border: 1px solid green; border-radius: 5px; color: white; text-decoration: none;">Salvar</a>
+                       <a href="avaliarTcc.html" class="btn" style="background:grey; border: 1px solid grey; border-radius: 5px; color: white; text-decoration: none;">Cancelar</a> 
+                    </div>
+                    
+                <div class="modal fade meu-modal" id="my-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                              <p>O que deseja fazer com as alterações?</p>
+                            </div>
+                             <div class="modal-footer">
+                                <a href="avaliarTcc.html" id="btn-alteracoes" class="btn" style="background:green; border: 1px solid green; border-radius: 5px; color: white; text-decoration: none;">Salvar</a>
+                                <a href="avaliarTcc.html" id="btn-alteracoes-notificacao" class="btn" style="background: blue; border: 1px solid blue; border-radius: 5px; color: white; text-decoration: none;">Salvar e Notificar</a>
+                                <a href="visualizarTcc.html" class="btn" style="background:grey; border: 1px solid grey; border-radius: 5px; color: white; text-decoration: none;">Cancelar</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+					
+                </div>
+                <!-- /.row -->
+                
+
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->  
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/SelectRegister.js"></script>
+
+</body>
+
+</html>
