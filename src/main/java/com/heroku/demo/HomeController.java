@@ -66,5 +66,17 @@ public class HomeController {
 		return	 "blankpage";
     }
 	
+	@RequestMapping("/avaliarTcc")
+	public String avaliarTcc() {
+				
+		return	 "avaliarTcc";
+    }
+	
+	@RequestMapping("/visualizarTcc")
+	public String visualizarTcc() {
+				
+		return	 "visualizarTcc";
+    }
+	
 	
 }
