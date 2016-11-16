@@ -77,6 +77,12 @@ public class HomeController {
 				
 		return	 "visualizarTcc";
     }
+
+	@RequestMapping("/acompanhamento")
+	public String acompanhamento() {
+				
+		return	 "acompanhamento";
+    }
 	
 	
 }
