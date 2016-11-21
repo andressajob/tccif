@@ -83,6 +83,24 @@ public class HomeController {
 				
 		return	 "acompanhamento";
     }
-	
-	
+	@RequestMapping("/template")
+	public String template() {
+				
+		return	 "template";
+    }
+	@RequestMapping("/novoTemplate")
+	public String novoTemplate() {
+				
+		return	 "novoTemplate";
+    }
+	@RequestMapping("/editaTemplate")
+	public String editaTemplate() {
+				
+		return	 "editaTemplate";
+    }
+	@RequestMapping("/estruturarDocumentos")
+	public String estruturarDocumentos() {
+				
+		return	 "estruturarDocumentos";
+    }
 }
